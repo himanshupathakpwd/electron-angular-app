@@ -1,0 +1,15 @@
+<form ng-submit="$ctrl.onSubmit($event)" method="POST" role="form">
+  <legend>Login</legend>
+
+  <div class="form-group">
+    <label for="">UserName</label>
+    <input type="text" class="form-control" ng-model="$ctrl.user.username" placeholder="User Name">
+  </div>
+  <div class="form-group">
+    <label for="">Password</label>
+    <input type="password" class="form-control" ng-model="$ctrl.user.password" placeholder="Password">
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
